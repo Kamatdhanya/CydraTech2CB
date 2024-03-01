@@ -1,8 +1,8 @@
-```markdown
 # CydraTech2CB
 ## Assignment 2: Chatty Document Chatbot
 
-This project implements an AI chatbot that allows users to have a conversation with an uploaded PDF document. The chatbot extracts information from the uploaded PDF and responds to questions asked by the user.
+This project implements an AI chatbot that allows users to have a conversation with an uploaded PDF document.
+The chatbot extracts information from the uploaded PDF and responds to questions asked by the user.
 
 ## Tech Stack
 
