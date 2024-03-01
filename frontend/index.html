@@ -1,0 +1,31 @@
+<!-- frontend/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatty Document Chatbot</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chatty Document Chatbot</h1>
+        <form id="apiKeyForm">
+            <label for="apiKey">Enter API Key:</label>
+            <input type="text" id="apiKey" name="apiKey" required>
+            <button type="submit">Submit</button>
+        </form>
+        <form id="uploadForm" style="display: none;">
+            <input type="file" name="file" id="file" accept=".pdf" required>
+            <button type="submit">Upload PDF</button>
+        </form>
+        <div id="chatbox" class="chatbox" style="display: none;"></div>
+        <form id="questionForm" class="form" style="display: none;">
+            <input type="text" id="question" placeholder="Ask a question...">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
