@@ -18,7 +18,7 @@ app.mount("/static", StaticFiles(directory="frontend"), name="static")
 templates = Jinja2Templates(directory="backend/templates")
 
 # Global variable to store API key
-api_key = "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"
+api_key = " "
 
 # Function to process PDF content
 def process_pdf(content: bytes) -> str:
